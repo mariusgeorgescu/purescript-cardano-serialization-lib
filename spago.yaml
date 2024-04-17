@@ -1,0 +1,17 @@
+package:
+  dependencies:
+  - argonaut-core
+  - arraybuffer-types
+  - console
+  - effect
+  - either
+  - foldable-traversable
+  - maybe
+  - nullable
+  - partial
+  - prelude
+  name: my-project
+workspace:
+  extra_packages: {}
+  package_set:
+    url: https://raw.githubusercontent.com/purescript/package-sets/psc-0.15.4-20220901/packages.json
