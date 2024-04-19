@@ -689,7 +689,7 @@ instance Semiring BigInt where
   add = bigInt.add
   mul = bigInt.mul
   one = bigInt.one
-  zero = fromStr' "zero undefined"
+  zero = fromStr' "0"
 
 -- Value
 
